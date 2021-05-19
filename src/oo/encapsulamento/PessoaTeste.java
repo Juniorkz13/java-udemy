@@ -1,0 +1,16 @@
+package oo.encapsulamento;
+
+public class PessoaTeste {
+    
+    public static void main(String[] args) {
+        
+        Pessoa p1 = new Pessoa(-45);
+        // p1.idade = -30; // acesso sem nenhum tipo de validação ou proteção
+
+        p1.alterarIdade(-30);
+        p1.alterarIdade(199);
+
+        System.out.println(p1.lerIdade());
+        
+    }
+}
