@@ -3,15 +3,13 @@ package jdbc;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.util.Scanner;
+
+import javax.swing.JOptionPane;
 
 public class NovaPessoa {
     public static void main(String[] args) throws SQLException {
 
-        Scanner entrada = new Scanner(System.in);
-
-        System.out.println("Informe o nome: ");
-        String nome = entrada.nextLine();
+        String nome = JOptionPane.showInputDialog("Informe o nome: ");
 
         Connection conexao = FabricaConexao.getConexao();
 
@@ -21,6 +19,5 @@ public class NovaPessoa {
         stmt.execute();
 
         System.out.println("Pessoa incluida com sucesso");
-        entrada.close();
     }
 }

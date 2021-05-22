@@ -8,7 +8,7 @@ public class TesteConexao {
     public static void main(String[] args) throws SQLException {
 
        
-       final String url = "jdbc:mysql://localhost:3306/useTimezone=true&serverTimezone=America/Sao_Paulo";
+       final String url = "jdbc:mysql://localhost?useTimezone=true&serverTimezone=America/Sao_Paulo";
        final String usuario = "root";
        final String senha = "123456";
 
