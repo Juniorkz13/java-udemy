@@ -1,3 +1,7 @@
 {
-    "java.dependency.packagePresentation": "hierarchical"
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "e:\\Faculdade\\IDEs\\org_junit_platform_junit-platform-console-standalone_1.6.0_junit-platform-console-standalone-1.6.0.jar",
+        "c:\\Program Files (x86)\\MySQL\\Connector J 8.0\\mysql-connector-java-8.0.22.jar"
+    ]
 }
