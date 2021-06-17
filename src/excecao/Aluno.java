@@ -52,10 +52,7 @@ public class Aluno {
         if (Double.doubleToLongBits(nota) != Double.doubleToLongBits(other.nota))
             return false;
         return true;
+
     }
-
-    
-
-    
 
 }
